@@ -301,7 +301,7 @@
 ### ❤️ 特别感谢
 
 - Auto.js
-- 感谢George Huan大佬首版开发的脚本(https://github.com/georgehuan1994/DingDing-Automatic-Clock-in)
+- 感谢George Huan大佬首版开发的[脚本](https://github.com/georgehuan1994/DingDing-Automatic-Clock-in)
 - 感谢「马喽」精神——打工人之间的互相理解与支持
 
 ---
@@ -316,6 +316,6 @@
 
 **如果这个项目对你有帮助，欢迎给个 ⭐ Star 支持一下！**
 
-Made with ❤️ by zxn2013
+Made with ❤️
 
 </div>
