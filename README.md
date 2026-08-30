@@ -12,7 +12,7 @@
 
 中文 | [English](./README_EN.md)
 
-[![Auto.js Pro](https://img.shields.io/badge/Auto.js-Pro8-blue)](https://github.com/Azek431/AutoJsPro-Crd))
+[![Auto.js Pro](https://img.shields.io/badge/Auto.js-Pro-blue)](https://github.com/Azek431/AutoJsPro-Crd))
 [![License](https://img.shields.io/badge/License-ISC-yellow)](./liense)
 
 > 我也想出去看看！
