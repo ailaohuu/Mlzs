@@ -12,10 +12,8 @@
 
 中文 | [English](./README_EN.md)
 
-[![Auto.js Pro8](https://img.shields.io/badge/Auto.js-Pro8-blue)](https://www.autojs.org/)
-[![Version](https://img.shields.io/badge/version-3.0.4-green)](./changelist.txt)
-[![Android](https://img.shields.io/badge/Android-8.0+-orange)]()
-[![License](https://img.shields.io/badge/License-ISC-yellow)](./package.json)
+[![Auto.js Pro](https://github.com/Azek431/AutoJsPro-Crd)]([https://www.autojs.org/](https://github.com/Azek431/AutoJsPro-Crd))
+[![License](https://img.shields.io/badge/License-ISC-yellow)](./liense)
 
 > 我也想出去看看！
 
@@ -307,15 +305,15 @@
 
 ### ❤️ 特别感谢
 
-- 感谢钉钉提供的考勤系统开放接口
-- 感谢所有开源软件背后默默付出的维护者
+- Auto.js
+- 感谢George Huan大佬首版开发的脚本(https://github.com/georgehuan1994/DingDing-Automatic-Clock-in)
 - 感谢「马喽」精神——打工人之间的互相理解与支持
 
 ---
 
 ## 📄 许可证
 
-本项目采用 [ISC License](./package.json) 开源许可协议。
+本项目采用 [ISC License](./liense) 开源许可协议。
 
 ---
 
