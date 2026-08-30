@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <drawer id="drawer">
+        <vertical>
+            <appbar >
+              <toolbar id="toolbar" title="马喽助手" bg="#070404" titleTextColor='#fcf8f8'>
+              <tabs id="tabs"/>
+              </toolbar>
+            </appbar>
+            <radiogroup orientation="horizontal" gravity="center" id="chan_group">
+              <radio id="radio_Wechatchan" text="企业微信"/>
+              <radio id="radio_Serverchan" text="server酱"/>
+            </radiogroup>
+            <vertical>
+              <input id = "username" hint = "使用人" text='123213'/>
+              <input id = "Uid" singleLine = 'true' hint="输入手机号或者server酱UID"/>
+              <input id = "Sendkey"  hint="请输入企业微信id或者server酱sendkey"/>
+              <input id = "CorpId"  hint="请输入钉钉CorpId" />
+            </vertical>
+            <horizontal gravity="center">
+              <button id="Start"  text="开始运行" style="Widget.AppCompat.Button.Colored"/>
+              <button id="Stop" text="停止监听"/>
+              <button id='Writeconfig' text='写入配置'/>
+            </horizontal>
+            <horizontal gravity="center" padding="0 15 0 0">
+              <card id="netlight" w="15" h="15" cardBackgroundColor="#130909ff" cardCornerRadius="10" ></card>
+              <text id='netstatus' text='与服务器连接中..'/>
+            </horizontal>
+            <horizontal gravity="center" padding="0 6 0 0">
+              <card id="notlight" w="15" h="15" cardBackgroundColor="#130909ff" cardCornerRadius="10" ></card>
+              <text id='notstatus' text='未开启监听!'/>
+            </horizontal>
+        </vertical>
+        <vertical layout_gravity="left" bg="#ffffff" w="245">
+          <img w="245" h="200" scaleType="fitXY" src="file://rec/images/image.png"/>
+          <horizontal layout_gravity="left" w="*" padding='20 0 0 0'>
+              <img id="无障碍服务图标" w="40dp" h="40dp" src="@drawable/ic_android_black_48dp" scaleType="centerInside" padding="35 35 35 35"/>
+              <Switch id="wza" text="无障碍服务" checked="{{auto.service != null}}" 
+                      textSize="18sp"  layout_gravity="center" layout_width="210dp" padding='0 0 35 0'/>
+          </horizontal>
+          <horizontal layout_gravity="left" w="*" padding='20 0 0 0'>
+              <img id="截图图标" w="40dp" h="40dp" src="@drawable/ic_settings_black_48dp" scaleType="centerInside" padding="35 35 35 35"/>
+              <Switch id="screen" text="截图权限" checked="{{images.getScreenCaptureOptions() != null}}" textSize="18sp" 
+              layout_gravity="center" layout_width="210dp" padding='0 0 35 0'/>
+          </horizontal>
+          <horizontal layout_gravity="left" w="*" padding='20 0 0 0'>
+              <img id="图标" w="40dp" h="40dp" src="@drawable/ic_settings_black_48dp" scaleType="centerInside" padding="35 35 35 35"/>
+              <Switch id="set" text="修改系统" checked="false" textSize="18sp" 
+              layout_gravity="center" layout_width="210dp" padding='0 0 35 0'/>
+          </horizontal>
+          <horizontal layout_gravity="left" w="*" padding='20 0 0 0'>
+              <img id="图标" w="40dp" h="40dp" src="@drawable/ic_alarm_off_black_48dp" scaleType="centerInside" padding="35 35 35 35"/>
+              <Switch id="not" text="读取通知权限" checked="false" textSize="18sp" 
+              layout_gravity="center" layout_width="210dp" padding='0 0 35 0'/>
+          </horizontal>
+          <horizontal layout_gravity="left" w="*" padding='20 0 0 0'>
+              <img id="图标" w="40dp" h="40dp" src="@drawable/ic_assessment_black_48dp" scaleType="centerInside" padding="35 35 35 35"/>
+              <Switch id="use" text="通知软件使用权限" checked="false" textSize="18sp" 
+              layout_gravity="center" layout_width="210dp" padding='0 0 35 0'/>
+          </horizontal>
+          <horizontal  layout_gravity="left" w="*" padding='20 0 0 0'>
+              <img id="随机等待图标" w="40dp" h="40dp" src="@drawable/ic_alarm_black_48dp" scaleType="centerInside" padding="35 35 35 35"/>
+              <Switch id="Wait" text="随机等待" checked="true"  textSize="18sp" 
+              layout_gravity="center" layout_width="210dp" padding='0 0 35 0'/>
+          </horizontal>
+          <horizontal  layout_gravity="left" w="*" padding='35 0 0 0'>
+              <img id="退出图标" w="40dp" h="40dp" src="@drawable/ic_exit_to_app_black_48dp" scaleType="centerInside" padding="35 35 30 35"/>
+              <button id="Back" text="退出" textSize="18sp" bg="#ffffff"
+              layout_gravity="center" layout_width="170dp" padding='-80 -10 0 0'style="Widget.AppCompat.Button.Borderless"/>
+          </horizontal>
+        </vertical>
+    </drawer>

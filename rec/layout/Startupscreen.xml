@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <frame w="*" h="*" gravity='center' color="#FFFFFF">
+          <vertical gravity="center">
+            <img w="300" h="200" src="file://rec/images/image.png" scaleType="centerCrop"/>
+            </vertical>
+        <vertical gravity="center" w="wrap_content" h="wrap_content" color="#FFFFFF">
+            <ProgressBar  id="loading" style="?android:attr/progressBarStyleLarge" color="#FFFFFF" />
+            <text text="加载中..." margin="15" textSize="16" textColor="#FFFFFF" bg="#80000000"/>
+        </vertical>
+    </frame>
