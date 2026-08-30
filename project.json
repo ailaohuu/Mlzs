@@ -22,7 +22,7 @@
     "splashText": "我也想出去看看!",
     "stableMode": false
   },
-  "main": "Startup_screen.js",
+  "main": "main.js",
   "name": "马喽助手",
   "optimization": {
     "obfuscateComponents": true,
