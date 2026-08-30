@@ -12,7 +12,7 @@
 
 中文 | [English](./README_EN.md)
 
-[![Auto.js Pro](https://github.com/Azek431/AutoJsPro-Crd)]([https://www.autojs.org/](https://github.com/Azek431/AutoJsPro-Crd))
+[![Auto.js Pro](https://github.com/Azek431/AutoJsPro-Crd)](https://github.com/Azek431/AutoJsPro-Crd))
 [![License](https://img.shields.io/badge/License-ISC-yellow)](./liense)
 
 > 我也想出去看看！
@@ -287,15 +287,10 @@
 
 ### 💎 核心技术
 
-- **[Auto.js Pro8](https://www.autojs.org/)** — 强大的 Android 自动化脚本引擎，为整个项目提供运行基础
+- **[Auto.js Pro 二开版本](https://github.com/Azek431/AutoJsPro-Crd)** — 强大的 Android 自动化脚本引擎，为整个项目提供运行基础
 - **[OpenCV](https://opencv.org/)** — 开源计算机视觉库，支撑考勤界面的图像识别能力
 - **[Socket.io](https://socket.io/)** — 实时双向通信引擎，实现客户端与服务端的稳定连接
-- **[Node.js](https://nodejs.org/)** — JavaScript 运行时与模块生态
 
-### 🛠️ 开发工具
-
-- **aigame-pro-auto-completion** — Auto.js Pro 智能代码补全插件
-- **@autojs/types-pro8** — Auto.js Pro8 TypeScript 类型定义
 
 ### 🤝 社区与贡献者
 
